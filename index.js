@@ -1,1 +1,1 @@
-require('lib/quick.js');
+module.exports = require('./lib/quick');
