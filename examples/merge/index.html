@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Merge quick app with object</title>
+</head>
+<body>
+	<script src="../../build/build.js"></script>
+	<script>
+	  var quick = require('quick');
+	  quick.merge(require('superagent'));
+
+	  var app = quick();
+	</script>
+</body>
+</html>
