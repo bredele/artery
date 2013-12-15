@@ -7,7 +7,9 @@
   "dependencies": {
     "bredele/mixin" : "*"
   },
-  "development": {},
+  "development": {
+    "visionmedia/superagent" : "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
