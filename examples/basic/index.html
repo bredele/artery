@@ -7,7 +7,11 @@
 <body>
 	<script src="../../build/build.js"></script>
 	<script>
-	  var app = require('quick')();
+	  var quick = require('quick');
+	  var todo = quick();
+	  var cal = quick();
+
+	  console.log(todo !== cal);
 	</script>
 </body>
 </html>
