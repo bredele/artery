@@ -1,6 +1,6 @@
 {
-  "name": "quick",
-  "repo": "bredele/quick",
+  "name": "carry",
+  "repo": "bredele/carry",
   "description": "Express like api to create scalable and real time application on your browser",
   "version": "0.0.1",
   "keywords": [],
@@ -15,7 +15,7 @@
   "main": "index.js",
   "scripts": [
     "index.js",
-    "lib/quick.js",
+    "lib/carry.js",
     "lib/application.js"
   ]
 }

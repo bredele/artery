@@ -1,1 +1,1 @@
-module.exports = require('./lib/quick');
+module.exports = require('./lib/carry');
