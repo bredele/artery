@@ -1,0 +1,36 @@
+{
+  "name": "carry",
+  "version": "0.0.0",
+  "description": "Express-like API to create scalable and realtime applications in your browser",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/carry.git"
+  },
+  "keywords": [
+    "express",
+    "carry",
+    "framework",
+    "api",
+    "app",
+    "maintainable",
+    "reusable",
+    "html5",
+    "web"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/carry/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.1"
+  }
+}

@@ -5,6 +5,10 @@ build: components index.js
 components: component.json
 	@component install --dev
 
+test:
+	@NODE_ENV=test ./node_modules/.bin/mocha \
+	  --require should
+
 clean:
 	rm -fr build components template.js
 
