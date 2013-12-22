@@ -9,7 +9,8 @@
     "component/emitter" : "*"
   },
   "development": {
-    "visionmedia/superagent" : "*"
+    "visionmedia/superagent" : "*",
+    "component/assert" : "*"
   },
   "license": "MIT",
   "main": "index.js",
