@@ -12,12 +12,12 @@ describe("merge", function() {
 	});
 
 	it("shoud merge an object with carry apps", function() {
-		assert(typeof app.path === 'function');
+		assert.equal(typeof app.path,'function');
 	});
 
 	it("should merge multiple objects", function() {
-		assert(typeof app.path === 'function');
-		assert(typeof app.get === 'function');
+		assert.equal(typeof app.path, 'function');
+		assert.equal(typeof app.get,'function');
 	});
 	
 });
