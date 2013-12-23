@@ -6,7 +6,7 @@ components: component.json
 	@component install --dev
 
 carry.js: components
-	@component build --standalone carry --name carry --out
+	@component build --standalone carry --name carry --out .
 
 clean:
 	rm -fr build components template.js
