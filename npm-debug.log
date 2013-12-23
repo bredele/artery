@@ -1,0 +1,215 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'n' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.20
+4 verbose cache add [ 'n', null ]
+5 verbose cache add name=undefined spec="n" args=["n",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'n',
+6 verbose parsed url   path: 'n',
+6 verbose parsed url   href: 'n' }
+7 silly lockFile d1854cae-n n
+8 verbose lock n /Users/olivier/.npm/d1854cae-n.lock
+9 silly lockFile d1854cae-n n
+10 silly lockFile d1854cae-n n
+11 verbose addNamed [ 'n', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 6b58d7dc-n n@
+14 verbose lock n@ /Users/olivier/.npm/6b58d7dc-n.lock
+15 silly addNameRange { name: 'n', range: '*', hasData: false }
+16 verbose url raw n
+17 verbose url resolving [ 'https://registry.npmjs.org/', './n' ]
+18 verbose url resolved https://registry.npmjs.org/n
+19 info trying registry request attempt 1 at 21:03:44
+20 http GET https://registry.npmjs.org/n
+21 http 200 https://registry.npmjs.org/n
+22 silly registry.get cb [ 200,
+22 silly registry.get   { vary: 'Accept',
+22 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+22 silly registry.get     etag: '"5W2QMNRAC1FNSPZRPI77VPJ03"',
+22 silly registry.get     date: 'Sun, 22 Dec 2013 04:03:31 GMT',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '71914' } ]
+23 silly addNameRange number 2 { name: 'n', range: '*', hasData: true }
+24 silly addNameRange versions [ 'n',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.4',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0' ] ]
+25 verbose addNamed [ 'n', '1.1.0' ]
+26 verbose addNamed [ '1.1.0', '1.1.0' ]
+27 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+28 verbose lock n@1.1.0 /Users/olivier/.npm/9f2a0569-n-1-1-0.lock
+29 silly lockFile 3f90a660-registry-npmjs-org-n-n-1-1-0-tgz https://registry.npmjs.org/n/-/n-1.1.0.tgz
+30 verbose lock https://registry.npmjs.org/n/-/n-1.1.0.tgz /Users/olivier/.npm/3f90a660-registry-npmjs-org-n-n-1-1-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/n/-/n-1.1.0.tgz',
+31 verbose addRemoteTarball   '0d49b9afba1577e237014b24a2dffc4e5d7f3e67' ]
+32 info retry fetch attempt 1 at 21:03:45
+33 verbose fetch to= /Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/tmp.tgz
+34 http GET https://registry.npmjs.org/n/-/n-1.1.0.tgz
+35 http 200 https://registry.npmjs.org/n/-/n-1.1.0.tgz
+36 verbose tar unpack /Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/tmp.tgz
+37 silly lockFile fe5e2bf4-25681-0-7302595658693463-package tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package
+38 verbose lock tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package /Users/olivier/.npm/fe5e2bf4-25681-0-7302595658693463-package.lock
+39 silly lockFile b4c0e42f-25681-0-7302595658693463-tmp-tgz tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/tmp.tgz
+40 verbose lock tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/tmp.tgz /Users/olivier/.npm/b4c0e42f-25681-0-7302595658693463-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry bin/n
+44 silly gunzTarPerm extractEntry History.md
+45 silly gunzTarPerm extractEntry Makefile
+46 silly gunzTarPerm extractEntry Readme.md
+47 silly lockFile fe5e2bf4-25681-0-7302595658693463-package tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package
+48 silly lockFile fe5e2bf4-25681-0-7302595658693463-package tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package
+49 silly lockFile b4c0e42f-25681-0-7302595658693463-tmp-tgz tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/tmp.tgz
+50 silly lockFile b4c0e42f-25681-0-7302595658693463-tmp-tgz tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/tmp.tgz
+51 verbose tar pack [ '/Users/olivier/.npm/n/1.1.0/package.tgz',
+51 verbose tar pack   '/Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package' ]
+52 verbose tarball /Users/olivier/.npm/n/1.1.0/package.tgz
+53 verbose folder /Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package
+54 silly lockFile fe5e2bf4-25681-0-7302595658693463-package tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package
+55 verbose lock tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package /Users/olivier/.npm/fe5e2bf4-25681-0-7302595658693463-package.lock
+56 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+57 verbose lock tar:///Users/olivier/.npm/n/1.1.0/package.tgz /Users/olivier/.npm/8371f2c6--olivier-npm-n-1-1-0-package-tgz.lock
+58 silly lockFile fe5e2bf4-25681-0-7302595658693463-package tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package
+59 silly lockFile fe5e2bf4-25681-0-7302595658693463-package tar:///Users/olivier/tmp/npm-92128-cyBc79Li/1387685025681-0.7302595658693463/package
+60 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+61 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+62 silly lockFile 812aa342-sers-olivier-npm-n-1-1-0-package /Users/olivier/.npm/n/1.1.0/package
+63 verbose lock /Users/olivier/.npm/n/1.1.0/package /Users/olivier/.npm/812aa342-sers-olivier-npm-n-1-1-0-package.lock
+64 silly lockFile 812aa342-sers-olivier-npm-n-1-1-0-package /Users/olivier/.npm/n/1.1.0/package
+65 silly lockFile 812aa342-sers-olivier-npm-n-1-1-0-package /Users/olivier/.npm/n/1.1.0/package
+66 verbose tar unpack /Users/olivier/.npm/n/1.1.0/package.tgz
+67 silly lockFile 33d31378-sers-olivier-npm-n-1-1-0-package tar:///Users/olivier/.npm/n/1.1.0/package
+68 verbose lock tar:///Users/olivier/.npm/n/1.1.0/package /Users/olivier/.npm/33d31378-sers-olivier-npm-n-1-1-0-package.lock
+69 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+70 verbose lock tar:///Users/olivier/.npm/n/1.1.0/package.tgz /Users/olivier/.npm/8371f2c6--olivier-npm-n-1-1-0-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry History.md
+74 silly gunzTarPerm extractEntry Makefile
+75 silly gunzTarPerm extractEntry Readme.md
+76 silly gunzTarPerm extractEntry bin/n
+77 silly lockFile 33d31378-sers-olivier-npm-n-1-1-0-package tar:///Users/olivier/.npm/n/1.1.0/package
+78 silly lockFile 33d31378-sers-olivier-npm-n-1-1-0-package tar:///Users/olivier/.npm/n/1.1.0/package
+79 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+80 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+81 verbose chmod /Users/olivier/.npm/n/1.1.0/package.tgz 644
+82 verbose chown /Users/olivier/.npm/n/1.1.0/package.tgz [ 501, 20 ]
+83 silly lockFile 3f90a660-registry-npmjs-org-n-n-1-1-0-tgz https://registry.npmjs.org/n/-/n-1.1.0.tgz
+84 silly lockFile 3f90a660-registry-npmjs-org-n-n-1-1-0-tgz https://registry.npmjs.org/n/-/n-1.1.0.tgz
+85 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+86 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+87 silly lockFile 6b58d7dc-n n@
+88 silly lockFile 6b58d7dc-n n@
+89 silly resolved [ { name: 'n',
+89 silly resolved     description: 'node version manager',
+89 silly resolved     version: '1.1.0',
+89 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+89 silly resolved     homepage: 'https://github.com/visionmedia/n',
+89 silly resolved     bugs: { url: 'https://github.com/visionmedia/n/issues' },
+89 silly resolved     keywords: [ 'node', 'binary', 'version', 'env' ],
+89 silly resolved     bin: { n: './bin/n' },
+89 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/n.git' },
+89 silly resolved     engines: { node: '*' },
+89 silly resolved     license: 'MIT',
+89 silly resolved     readme: '# n\n\nSimple flavour of node binary management, no subshells, no profile setup, no convoluted api, just _simple_.\n\n## Installation\n\n    $ npm install -g n\n\nor\n\n    $ make install\n\n### Installing Binaries\n\nInstall a few nodes:\n\n    $ n 0.8.14\n    $ n 0.8.17\n    $ n 0.9.6\n\nType `n` to prompt selection of an installed node. Use the up /\ndown arrow to navigate, and press enter or the right arrow to\nselect, or ^C to cancel:\n\n    $ n\n\n      0.8.14\n    ο 0.8.17\n      0.9.6\n\nPass some config flags to _./configure_:\n\n    $ n 0.2.6 --debug\n\nList installed binaries, config flags are shown:\n\n      0.2.3\n    ο 0.2.6 --debug\n      0.3.4\n      0.3.5\n\nUse or install the latest official release:\n\n    $ n latest\n\nUse or install the stable official release:\n\n    $ n stable\n\nSwitch to the previous version you were using:\n\n    $ n prev\n\n### Removing Binaries\n\nRemove some versions:\n\n    $ n rm 0.2.4 v0.3.0\n\nInstead of using `rm` we can simply use `-`:\n\n    $ n - 0.2.4\n\n### Binary Usage\n\nWhen running multiple versions of node, we can target\nthem directly by asking `n` for the binary path:\n\n    $ n bin 0.3.3\n    /usr/local/n/versions/0.3.3/bin/node\n\nOr by using a specific version through `n`\'s `use` sub-command:\n\n    $ n use 0.3.3 some.js\n\nwith flags:\n\n    $ n as 0.3.3 --debug some.js\n\n## Usage\n\n Output from `n --help`:\n\n    Usage: n [options] [COMMAND] [config]\n\n    Commands:\n\n      n                            Output versions installed\n      n latest [config ...]        Install or activate the latest node release\n      n stable [config ...]        Install or activate the latest stable node release\n      n <version> [config ...]     Install and/or use node <version>\n      n use <version> [args ...]   Execute node <version> with [args ...]\n      n bin <version>              Output bin path for <version>\n      n rm <version ...>           Remove the given version(s)\n      n --latest                   Output the latest node version available\n      n --stable                   Output the latest stable node version available\n      n ls                         Output the versions of node available\n\n    Options:\n\n      -V, --version   Output current version of n\n      -h, --help      Display help information\n\n    Aliases:\n\n      which   bin\n      use     as\n      list    ls\n      -       rm\n\n## Details\n\n `n` by default installs node to _/usr/local/n/versions_, from\n which it can see what you have currently installed, and activate previously installed versions of node when `n <version>` is invoked again.\n\n Activated nodes are then installed to the prefix _/usr/local_, which of course may be altered via the __N_PREFIX__ environment variable.\n\n To alter where `n` operates simply export __N_PREFIX__ to whatever you prefer.\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2010 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+89 silly resolved     readmeFilename: 'Readme.md',
+89 silly resolved     _id: 'n@1.1.0',
+89 silly resolved     dist: { shasum: '87fcf5a2ab667936958a6a6290554a6ab3224c53' },
+89 silly resolved     _from: 'n@',
+89 silly resolved     _resolved: 'https://registry.npmjs.org/n/-/n-1.1.0.tgz' } ]
+90 info install n@1.1.0 into /usr/local/lib
+91 info installOne n@1.1.0
+92 info /usr/local/lib/node_modules/n unbuild
+93 verbose tar unpack /Users/olivier/.npm/n/1.1.0/package.tgz
+94 silly lockFile 9a5950d7-tar-usr-local-lib-node-modules-n tar:///usr/local/lib/node_modules/n
+95 verbose lock tar:///usr/local/lib/node_modules/n /Users/olivier/.npm/9a5950d7-tar-usr-local-lib-node-modules-n.lock
+96 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+97 verbose lock tar:///Users/olivier/.npm/n/1.1.0/package.tgz /Users/olivier/.npm/8371f2c6--olivier-npm-n-1-1-0-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 silly gunzTarPerm extractEntry package.json
+100 silly gunzTarPerm extractEntry History.md
+101 silly gunzTarPerm extractEntry Makefile
+102 silly gunzTarPerm extractEntry Readme.md
+103 silly gunzTarPerm extractEntry bin/n
+104 silly lockFile 9a5950d7-tar-usr-local-lib-node-modules-n tar:///usr/local/lib/node_modules/n
+105 silly lockFile 9a5950d7-tar-usr-local-lib-node-modules-n tar:///usr/local/lib/node_modules/n
+106 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+107 silly lockFile 8371f2c6--olivier-npm-n-1-1-0-package-tgz tar:///Users/olivier/.npm/n/1.1.0/package.tgz
+108 info preinstall n@1.1.0
+109 verbose readDependencies using package.json deps
+110 verbose readDependencies using package.json deps
+111 silly resolved []
+112 verbose about to build /usr/local/lib/node_modules/n
+113 info build /usr/local/lib/node_modules/n
+114 verbose linkStuff [ true,
+114 verbose linkStuff   '/usr/local/lib/node_modules',
+114 verbose linkStuff   true,
+114 verbose linkStuff   '/usr/local/lib/node_modules' ]
+115 info linkStuff n@1.1.0
+116 verbose linkBins n@1.1.0
+117 verbose link bins [ { n: './bin/n' }, '/usr/local/bin', true ]
+118 verbose linkMans n@1.1.0
+119 verbose rebuildBundles n@1.1.0
+120 info install n@1.1.0
+121 info postinstall n@1.1.0
+122 warn unmet dependency /usr/local/lib/node_modules/yeoman/node_modules/bower requires colors@'latest' but will load
+122 warn unmet dependency /usr/local/lib/node_modules/yeoman/node_modules/colors,
+122 warn unmet dependency which is version 0.6.0-1
+123 warn unmet dependency /usr/local/lib/node_modules/yeoman/node_modules/bower requires rimraf@'latest' but will load
+123 warn unmet dependency /usr/local/lib/node_modules/yeoman/node_modules/rimraf,
+123 warn unmet dependency which is version 2.0.2
+124 warn unmet dependency /usr/local/lib/node_modules/yeoman/node_modules/bower requires mkdirp@'latest' but will load
+124 warn unmet dependency /usr/local/lib/node_modules/yeoman/node_modules/mkdirp,
+124 warn unmet dependency which is version 0.3.4
+125 warn unmet dependency /usr/local/lib/node_modules/yeoman/node_modules/bower requires fstream@'latest' but will load
+125 warn unmet dependency /usr/local/lib/node_modules/yeoman/node_modules/fstream,
+125 warn unmet dependency which is version 0.1.19
+126 error peerinvalid The package grunt-cli does not satisfy its siblings' peerDependencies requirements!
+126 error peerinvalid Peer yo@1.0.0-beta.5 wants grunt-cli@~0.1.7
+127 error System Darwin 12.3.0
+128 error command "node" "/usr/local/bin/npm" "install" "-g" "n"
+129 error cwd /Users/olivier/newlife/carry
+130 error node -v v0.10.20
+131 error npm -v 1.3.11
+132 error code EPEERINVALID
+133 verbose exit [ 1, true ]
