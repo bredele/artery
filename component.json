@@ -13,10 +13,9 @@
     "component/assert" : "*"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": [
-    "index.js",
-    "lib/carry.js",
+    "lib/index.js",
     "lib/application.js"
   ]
 }
