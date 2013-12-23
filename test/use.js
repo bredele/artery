@@ -10,10 +10,16 @@ describe("Carry middleware", function() {
 		child = carry();
 	});
 
-	it('should initiaze an app by name', function() {
+	it("should initialize an app by name", function() {
 		app.use('mail', child);
 		assert.equal(child.name, 'mail');
 	});
 
+	it("should initialize an app", function() {
+		child.name = 'test';
+		app.use(child);
+		assert.equal(child.name, 'test');		
+	});
+	
 	
 });
