@@ -6,6 +6,7 @@
   "keywords": [],
   "dependencies": {
     "bredele/mixin" : "*",
+    "bredele/toarray" : "*",
     "component/emitter" : "*"
   },
   "development": {
