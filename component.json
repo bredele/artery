@@ -1,7 +1,7 @@
 {
   "name": "carry",
   "repo": "bredele/carry",
-  "description": "Express like api to create scalable and real time application on your browser",
+  "description": "Express like api to create scalable and maintainable application on your browser",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
