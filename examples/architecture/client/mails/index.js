@@ -1,8 +1,9 @@
-
-var mails = require('./mails');
+/**
+ * module dependencies
+ */
 
 var app = module.exports = require('carry')();
 
-//app.use(require('./mails')) //the function should have an init attr?
+//middleware
 
-mails(app);
+app.use(require('./mails'));//the function should have an init attr?
