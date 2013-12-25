@@ -3,10 +3,6 @@ var mails = require('./mails');
 
 var app = module.exports = require('carry')();
 
-// app.start(function() {
-
-// });
+//app.use(require('./mails')) //the function should have an init attr?
 
 mails(app);
-console.log('mails');
-

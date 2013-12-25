@@ -20,6 +20,15 @@ describe("Carry middleware", function() {
 		app.use(child);
 		assert.equal(child.name, 'test');		
 	});
+
+	it("should pass app to function middleware", function() {
+		var ref = null;
+		app.use(function(param) {
+			ref = param;
+		});
+		assert.equal(app, ref);
+	});
+	
 	
 	
 });
