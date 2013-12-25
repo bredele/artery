@@ -1,0 +1,7 @@
+{
+  "name": "mails",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

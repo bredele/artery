@@ -1,0 +1,15 @@
+{
+  "name": "home",
+  "local": [
+    "draft",
+    "mails",
+    "trash"
+  ],
+  "dependencies": {
+    "bredele/carry" : "*"
+  },
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

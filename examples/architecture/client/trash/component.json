@@ -1,0 +1,7 @@
+{
+  "name": "trash",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
