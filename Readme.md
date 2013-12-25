@@ -17,7 +17,7 @@ browerify;
 
 standalone:
 
-    <script src="reactive.js"></script>
+    <script src="carry.js"></script>
 
 ## License
 
