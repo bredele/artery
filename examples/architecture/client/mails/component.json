@@ -5,6 +5,7 @@
     "bredele/carry" : "*"
   },  
   "scripts": [
-    "index.js"
+    "index.js",
+    "mails.js"
   ]
 }

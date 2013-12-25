@@ -1,4 +1,6 @@
 
 var app = module.exports = require('carry')();
 
-console.log('trash');
+	app.on('mails/delete', function() {
+		console.log('trash');
+	});
