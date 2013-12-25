@@ -1,6 +1,9 @@
 {
   "name": "mails",
   "main": "index.js",
+  "dependencies": {
+    "bredele/carry" : "*"
+  },  
   "scripts": [
     "index.js"
   ]
