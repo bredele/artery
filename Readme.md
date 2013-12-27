@@ -24,8 +24,8 @@ Artery reduces the complexity of your webapp by splitting it into small modules 
 
 #### Features:
   - Loose coupling of modules
-  - Complete event bus
-  - Modules have lifecycle hooks
+  - Complete [event bus]()
+  - Modules have [lifecycle hooks]()
   - Modules can be extend
   - Supports CommonJS and AMD
 
@@ -37,7 +37,7 @@ Artery isn't tight coupled to libraries. You can decide to switch from using jQu
 
 #### Features:
   - Library and framework agnostic
-  - Modules are fully configurable
+  - Modules are [fully configurable]()
   - Abstract utils libraries.
   - Manage your apps dependencies
   - Modules can be tested individualy.
@@ -52,7 +52,7 @@ Artery makes easy to reuse small modules or apps like express do with middleware
  > Think of the chat module in Gmail. That's the same that you have in Google docs or Google+. Doing 3 times the same module would be a waste of time and money! Now, using Artery you would code the module once and use it in 3 differents apps (probably what's google is doing).
 
 #### Features:
-  - Middleware engine
+  - [Middleware engine]()
   - Tools for scaffold and export your modules
   - Use Github as repository for your modules
 
