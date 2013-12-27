@@ -12,13 +12,17 @@ describe("Hooks", function() {
 	});
 
 	describe("init", function() {
-		var called = false;
-		app.sandbox.on('init', function(){
-			called = true;
+
+		it("should have an init hook", function() {
+			var called = false;
+			app.sandbox.on('init', function(){
+				called = true;
+			});
+			assert.equal(called, false);
+			hub.use('app', app);
+			assert.equal(called, true);		
 		});
-		assert.equal(called, false);
-		hub.use('app', app);
-		qssert.equal(called, true);
+	
 	});
 	describe("stop", function() {
 		
