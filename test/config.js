@@ -1,11 +1,11 @@
 var assert = require('assert'),
-    carry = require('carry');
+    artery = require('artery');
 
 describe("config", function() {
 	var app = null;
 
 	beforeEach(function(){
-		app = carry();
+		app = artery();
 	});
 
 	it("shoud set config object", function() {

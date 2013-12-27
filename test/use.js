@@ -1,13 +1,13 @@
 var assert = require('assert'),
-    carry = require('carry');
+    artery = require('artery');
 
-describe("Carry middleware", function() {
+describe("artery middleware", function() {
 	var app = null,
 	    child = null;
 
 	beforeEach(function(){
-		app = carry();
-		child = carry();
+		app = artery();
+		child = artery();
 	});
 
 	it("should initialize an app by name", function() {

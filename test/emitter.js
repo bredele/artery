@@ -1,11 +1,11 @@
 var assert = require('assert'),
-    carry = require('carry');
+    artery = require('artery');
 
 describe("Communication bus", function() {
 	var app = null;
 
 	beforeEach(function(){
-		app = carry();
+		app = artery();
 	});
 	
 	it("should prefix events with app's name", function() {

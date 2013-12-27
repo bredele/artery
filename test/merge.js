@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    carry = require('carry').merge({
+    artery = require('artery').merge({
 			path: function(){}
 		}, {
 			get: function(){}
@@ -8,10 +8,10 @@ var assert = require('assert'),
 describe("merge", function() {
 	var app = null;
 	beforeEach(function(){
-		app = carry();
+		app = artery();
 	});
 
-	it("shoud merge an object with carry apps", function() {
+	it("shoud merge an object with artery apps", function() {
 		assert.equal(typeof app.path,'function');
 	});
 
