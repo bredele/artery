@@ -49,7 +49,7 @@ Artery behaves as a valve, it's just the entry point of your modules. It has bee
 
 Artery makes easy to reuse small modules or apps like express do with middlewares.
 
- > Think of the chat module in Gmail. That's the same that you have in Google docs or Google+. Doing 3 times the same module would be a waste of time and money! Now, using Artery you would code the module once and use it in 3 differents apps.
+ > Think of the chat module in Gmail. That's the same that you have in Google docs or Google+. Doing 3 times the same module would be a waste of time and money! Now, using Artery you would code the module once and use it in 3 differents apps (probably what's google is doing).
 
 #### Features:
   - Middleware engine
