@@ -39,7 +39,7 @@ describe("config", function() {
 
 	describe("Config emitter", function() {
 		
-		it("should listen changes in config", function() {
+		it("should listen changes in config prop", function() {
 			var val = false;
 			//to refactor with app.on
 			app.sandbox.on('change type', function() {
@@ -48,6 +48,31 @@ describe("config", function() {
 			app.config('type', 'worker');
 			assert.equal(val, true);
 		});
+
+		it("should listen reset in config", function() {
+			var added = false,
+			    deleted = false;
+			app.config({
+				type:'worker'
+			});
+
+			//to refactor with app.on
+			app.sandbox.on('change environment', function() {
+				added = true;
+			});
+
+			//to refactor with app.on
+			app.sandbox.on('deleted type', function() {
+				deleted = true;
+			});
+
+			app.config({
+				environment : 'prod'
+			});
+			assert.equal(added, true);
+			assert.equal(deleted, true);
+		});
+		
 		
 	});
 	
