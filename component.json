@@ -18,6 +18,6 @@
   "main": "lib/index.js",
   "scripts": [
     "lib/index.js",
-    "lib/application.js"
+    "lib/app.js"
   ]
 }
