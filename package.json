@@ -1,7 +1,7 @@
 {
-  "name": "carry",
+  "name": "artery",
   "version": "0.0.0",
-  "description": "Express-like API to create scalable and realtime applications in your browser",
+  "description": "Express-like API to create scalable and maintainable applications in your browser",
   "main": "index.js",
   "directories": {
     "example": "examples",
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bredele/carry.git"
+    "url": "git://github.com/bredele/artery.git"
   },
   "keywords": [
     "express",
-    "carry",
+    "artery",
     "framework",
     "api",
     "app",
@@ -28,7 +28,7 @@
   "author": "Olivier Wietrich <olivier.wietrich@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bredele/carry/issues"
+    "url": "https://github.com/bredele/artery/issues"
   },
   "devDependencies": {
     "mocha": "~1.16.1"
