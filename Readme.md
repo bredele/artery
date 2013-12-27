@@ -18,9 +18,7 @@ His motive was to avoid end up doing the same stuff all over again. He wanted an
 
 ### Structure
 
-Artery reduces the complexity of your webapp by splitting it into small modules (or apps). Each piece live by its own and is totally independant from an other. **Removing a piece doesn't break the others.**
-
-A piece communicate with an other through an event bus.
+Artery reduces the complexity of your webapp by splitting it into small modules (or apps). Each piece live by its own and is totally independant from an other and communicate with it through event messages. **Removing a piece doesn't break the others.**
 
 ### Maintainability
 
@@ -31,7 +29,7 @@ Artery acts as a valve, it's just the entry point of your modules and doesn't fo
 
 ### Reusability
 
-Artery makes easy to reuse small components or apps like express do with middlewares.
+Artery makes easy to reuse small modules or apps like express do with middlewares.
 
  > Think of the chat app in Gmail. 
 
