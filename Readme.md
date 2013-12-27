@@ -7,8 +7,12 @@ Artery aims to provide a clean and yet powerful event-driven architecture to cre
 
 Artery works on top of your favorite framework and has first-class support for [components](http://github.com/component) (commonjs) but works fine as a standalone/AMD version.
 
+## <a name='TOC'>Table of Contents</a>
 
-## Overview
+  1. [Overview](#overview)
+  1. [Getting started](#gettingstarted)
+
+## <a name='overview'>Overview</a>
 
 You've probably met that guy at work who was always getting on your nerves (to be polite) and constantly told you to not repeat yourself, avoid tight coupling or think reusable and maintainable as much as possible. This guy (may be you) is a pain but you've also spend a lot of time refactoring your application and you start thinking he is right.
 
@@ -59,6 +63,12 @@ Artery makes easy to reuse small modules or apps like express do with middleware
 
 In one line of code, you can authenticate your app, connect to external services like Facebook or Twitter, store your module data and way more.
 
+    **[[⬆]](#TOC)**
+
+## <a name='gettingstarted'>Getting started</a>
+
+    **[[⬆]](#TOC)**
+    
 ## Installation
 
 
