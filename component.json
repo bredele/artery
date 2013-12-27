@@ -1,6 +1,6 @@
 {
-  "name": "carry",
-  "repo": "bredele/carry",
+  "name": "artery",
+  "repo": "bredele/artery",
   "description": "Express like api to create scalable and maintainable application on your browser",
   "version": "0.0.1",
   "keywords": [],
