@@ -15,6 +15,7 @@ describe("Hooks", function() {
 
 		it("should have an init hook", function() {
 			var called = false;
+			//TODO: should we merge app.on and app.sandbox.on?
 			app.sandbox.on('init', function(){
 				called = true;
 			});
@@ -24,9 +25,11 @@ describe("Hooks", function() {
 		});
 	
 	});
+
 	describe("stop", function() {
 		
 	});
+
 	describe("destroy", function() {
 		
 	});
