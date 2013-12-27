@@ -18,9 +18,24 @@ His motive was to avoid end up doing the same stuff all over again. He wanted an
 
 ### Structure
 
+Artery reduces the complexity of your webapp by splitting it into small components (or apps). Each piece live by its own and is totally independant from an other. **Removing a piece doesn't break the others.**
+
+A piece communicate with an other through an event bus.
+
 ### Maintainability
 
+Artery isn't tight coupled to libraries. You can decide to switch from using jQuery to Zepto, Backbone to Angular or something entirely different. Artery's flexibility will save you some precious time.
+
+Artery acts as a valve, it's just the entry point of your component and doesn't force you to write 
+
+
 ### Reusability
+
+Artery makes easy to reuse small components or apps like express do with middlewares.
+
+ > Think of the chat app in Gmail. 
+
+
 
 
 **Don't be a fool!** There is great tools out there such as Backbone, Angular or Ember, but none of them give a structure to your web application. Because doing a scalable application is way more complicated than doing a todo list, you should take the time to architecture it.
@@ -41,6 +56,10 @@ browerify;
 standalone:
 
     <script src="artery.js"></script>
+
+
+ > As a team, writing a maintainable code doesn't mean writing the best code ever. 
+
 
 ## License
 
