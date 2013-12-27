@@ -14,7 +14,7 @@ You've probably met this guy at work that got on your nerves (to stay polite) an
 
   > This guy's name is Addy Osmani or Nicholas Zakas and wrote interesting articles such as [scalable javascript architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture-2012) or [large scale javascript](http://addyosmani.com/largescalejavascript/).
 
-His motive was to avoid end up doing the same stuff all over again. He wanted an application that ***keeps working and doesn't break*** no matter what.
+His motive was to avoid end up doing the same stuff all over again. He wanted an application that **keeps working and doesn't break** no matter what.
 
 
 
