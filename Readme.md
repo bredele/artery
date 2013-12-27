@@ -20,7 +20,8 @@ His motive was to avoid end up doing the same stuff all over again. He wanted an
 
 Artery reduces the complexity of your webapp by splitting it into small modules (or apps). Each piece live by its own, is totally independant from an other and communicate with it through an event hub. **Removing a piece doesn't break the others** (same for errors).
 
-####Features:
+#### Features:
+  - 
 
 With Artery, a module can be dom related or a simple piece of logic, HTML or CSS. In the future, it would be easy to import [web components](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/).
 
@@ -28,6 +29,9 @@ With Artery, a module can be dom related or a simple piece of logic, HTML or CSS
 ### Maintainability
 
 Artery isn't tight coupled to libraries. You can decide to switch from using jQuery to Zepto, Backbone to Angular or something entirely different. Artery is extensible and its flexibility will save you some precious time.
+
+#### Features:
+  - 
 
 Artery behaves as a valve, it's just the entry point of your modules. It has been made to be as simple as possible and isn't invasive. **Write the JavaScript you like** and most important, a code that your team mates can understand.  
 
