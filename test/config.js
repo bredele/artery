@@ -8,7 +8,7 @@ describe("config", function() {
 		app = artery();
 	});
 
-	it("shoud set config object", function() {
+	it("shoud set config object: .config(obj)", function() {
 		app.config({
 	  	domain: 'github',
 	  	async: false
@@ -17,7 +17,7 @@ describe("config", function() {
 	  assert.equal(app.config('async'), false);
 	});
 
-	it("should set config property", function() {
+	it("should set config property: .config(key,value)", function() {
 		app.config({
 	  	domain: 'github',
 	  	async: false
@@ -27,7 +27,7 @@ describe("config", function() {
 	  assert.equal(app.config('async'), true);
 	});
 
-	it('should return app config', function() {
+	it('should return app config: .config()', function() {
 		var config = {
 	  	domain: 'github',
 	  	async: false
@@ -36,5 +36,20 @@ describe("config", function() {
 		app.config(config);
 		assert.equal(app.config(), config);
 	});
+
+	describe("Config emitter", function() {
+		
+		it("should listen changes in config", function() {
+			var val = false;
+			//to refactor with app.on
+			app.sandbox.on('change type', function() {
+				val = true;
+			});
+			app.config('type', 'worker');
+			assert.equal(val, true);
+		});
+		
+	});
+	
 	
 });

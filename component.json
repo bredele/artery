@@ -7,6 +7,7 @@
   "dependencies": {
     "bredele/mixin" : "*",
     "bredele/toarray" : "*",
+    "bredele/store" : "*",
     "component/emitter" : "*"
   },
   "development": {
