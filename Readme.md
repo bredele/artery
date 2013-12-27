@@ -16,6 +16,8 @@ You've probably met that guy at work who was always getting on your nerves (to b
 
 His motive was to avoid end up doing the same stuff all over again. He wanted an application that **keeps working and doesn't break** no matter what. That's what Artery is about.
 
+  > **Don't be a fool!** There is great tools out there such as Backbone, Angular or Ember, but none of them give a structure to your web application. Because doing a scalable application is way more complicated than doing a todo list, you should have a framerwork that helps to architecture your app.
+
 ### Structure
 
 Artery reduces the complexity of your webapp by splitting it into small modules (or apps). Each piece live by its own, is totally independant from an other and communicate with it through an event hub. **Removing a piece doesn't break the others** (same for errors).
@@ -34,9 +36,10 @@ With Artery, a module can be dom related or a simple piece of logic, HTML or CSS
 Artery isn't tight coupled to libraries. You can decide to switch from using jQuery to Zepto, Backbone to Angular or something entirely different. Artery is extensible and its flexibility will save you some precious time.
 
 #### Features:
-  - No dependencies (library and framework agnostic)
+  - Library and framework agnostic
   - Modules are fully configurable
   - Abstract utils libraries.
+  - Manage your apps dependencies
   - Modules can be tested individualy.
   - IE support (under IE7+) 
 
@@ -46,12 +49,15 @@ Artery behaves as a valve, it's just the entry point of your modules. It has bee
 
 Artery makes easy to reuse small modules or apps like express do with middlewares.
 
- > Think of the chat app in Gmail. 
+ > Think of the chat module in Gmail. That's the same that you have in Google docs or Google+. Doing 3 times the same module would be a waste of time and money! Now, using Artery you would code the module once and use it in 3 differents apps.
+
+#### Features:
+  - Middleware engine
+  - Tools for scaffold and export your modules
+  - Use Github as repository for your modules
 
 
-
-
-**Don't be a fool!** There is great tools out there such as Backbone, Angular or Ember, but none of them give a structure to your web application. Because doing a scalable application is way more complicated than doing a todo list, you should take the time to architecture it.
+In one line of code, you can authenticate your app, connect to external services like Facebook or Twitter, store your module data and way more.
 
 ## Installation
 
