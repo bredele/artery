@@ -1,5 +1,7 @@
 
-# artery
+# Artery
+
+  > the internal plumbing of your web application
 
   Express like API to create scalable and maintainable application on your browser
 
