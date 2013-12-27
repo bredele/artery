@@ -5,7 +5,7 @@
 
 Artery aims to provide a clean and yet powerful event-driven architecture to create scalable and maintainable applications. Artery's API is greatly inspired by [express](http://github.com/visionmedia/express) and its secret goal is to get the same kind of code on both client and server side.
 
-Artery is framework agnostic and has first-class support for [components](http://github.com/component) (commonjs) but works fine as a standalone/AMD version.
+Artery works on top of your favorite framework and has first-class support for [components](http://github.com/component) (commonjs) but works fine as a standalone/AMD version.
 
 
 ## Overview
@@ -16,8 +16,14 @@ You've probably met this guy at work that got on your nerves (to stay polite) an
 
 His motive was to avoid end up doing the same stuff all over again. He wanted an application that **keeps working and doesn't break** no matter what.
 
+**Don't be a fool!** There is great tools out there such as Backbone, Angular or Ember, but none of them give a structure to your web application. Because doing a scalable application is way more complicated than doing a todo list, you should take the time to architecture it. 
+
+### Structure
 
 
+### Maintainability
+
+### Reusability
 
 
 ## Installation
