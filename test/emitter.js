@@ -1,7 +1,7 @@
 var assert = require('assert'),
     artery = require('artery');
 
-describe("Communication bus", function() {
+describe("communication bus", function() {
 	var app = null;
 
 	beforeEach(function(){

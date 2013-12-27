@@ -11,22 +11,30 @@ describe("Hooks", function() {
 		hub = artery();
 	});
 
-	describe("init", function() {
+	describe("init and .use(app)", function() {
 
-		it("should have an init hook", function() {
+		it("should emit an init event in sandbox", function() {
 			var called = false;
 			//TODO: should we merge app.on and app.sandbox.on?
 			app.sandbox.on('init', function(){
 				called = true;
 			});
-			assert.equal(called, false);
 			hub.use('app', app);
 			assert.equal(called, true);		
+		});
+
+		it('should emit an init event in hub app', function() {
+			var called = false;
+			hub.sandbox.on('init app', function() {
+				called = true;
+			});
+			hub.use('app', app);
+			assert.equal(called, true);
 		});
 	
 	});
 
-	describe("stop", function() {
+	describe("app stop", function() {
 		
 	});
 

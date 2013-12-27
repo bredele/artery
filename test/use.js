@@ -1,7 +1,7 @@
 var assert = require('assert'),
     artery = require('artery');
 
-describe("artery middleware", function() {
+describe("middleware/hub", function() {
 	var app = null,
 	    child = null;
 
