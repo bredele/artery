@@ -63,12 +63,12 @@ Artery makes easy to reuse small modules or apps like express do with middleware
 
 In one line of code, you can authenticate your app, connect to external services like Facebook or Twitter, store your module data and way more.
 
-    **[[⬆]](#TOC)**
+**[[⬆]](#TOC)**
 
 ## <a name='gettingstarted'>Getting started</a>
 
-    **[[⬆]](#TOC)**
-    
+**[[⬆]](#TOC)**
+
 ## Installation
 
 
