@@ -62,26 +62,20 @@ In one line of code, you can authenticate your app, connect to external services
 
 ## Getting started
 
+### Installation
 
-## Installation
-
-
-Artery has first-class support for [component](http://github.com/component) and support other package manager tools such as browserify or bower.
+Artery has first-class support for [component](http://github.com/component) and will support soon other package manager tools such as browserify or bower.
 
 component:
 
     $ component install bredele/artery
 
-browerify;
-
-    $ npm install artery
-
 standalone:
 
     <script src="artery.js"></script>
+ 
+### Create an Artery app
 
-
- > As a team, writing a maintainable code doesn't mean writing the best code ever. 
 
 
 ## License
