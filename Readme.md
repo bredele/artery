@@ -1,23 +1,23 @@
 
-# carry
+# artery
 
   Express like API to create scalable and maintainable application on your browser
 
 ## Installation
 
-Carry has first-class support for [component](http://github.com/component) and support modern tools such as browserify or bower.
+Artery has first-class support for [component](http://github.com/component) and support other package manager tools such as browserify or bower.
 
 component:
 
-    $ component install bredele/carry
+    $ component install bredele/artery
 
 browerify;
 
-    $ npm install carry
+    $ npm install artery
 
 standalone:
 
-    <script src="carry.js"></script>
+    <script src="artery.js"></script>
 
 ## License
 
