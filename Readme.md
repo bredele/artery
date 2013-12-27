@@ -10,7 +10,12 @@ Artery is framework agnostic and has first-class support for [components](http:/
 
 ## Overview
 
-You've probably met this guy at work that got on your nerves (to stay polite) and constantly told you to not repeat yourself, test your code and think reusable and maintainable as much as possible. This guy is a pain but you've also spend a lot of time refactoring your application and you know he is right.
+You've probably met this guy at work that got on your nerves (to stay polite) and constantly told you to not repeat yourself, avoid tight coupling or think reusable and maintainable as much as possible. This guy (may be you) is a pain but you've also spend a lot of time refactoring your application and you start thinking he is right.
+
+  This guy's name is Addy Osmani or Nicholas Zakas and wrote interesting articles such as [scalable javascript architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture-2012) or [large scale javascript](http://addyosmani.com/largescalejavascript/).
+
+His motive was to avoid end up doing the same stuff all over again. He wanted an application that *keeps working and doesn't break* no matter what.
+
 
 
 
