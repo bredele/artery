@@ -2,7 +2,7 @@
   "name": "mails",
   "main": "index.js",
   "dependencies": {
-    "bredele/carry" : "*"
+    "bredele/artery" : "*"
   },  
   "scripts": [
     "index.js",

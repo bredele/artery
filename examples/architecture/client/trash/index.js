@@ -1,6 +1,6 @@
 var list = document.querySelector('.list');
 
-var app = module.exports = require('carry')();
+var app = module.exports = require('artery')();
 
 	app.on('mails/delete', function() {
 		var li = document.createElement('li');

@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var app = require('carry')();
+var app = require('artery')();
 
 
 // middlewares

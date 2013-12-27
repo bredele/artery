@@ -2,7 +2,7 @@
  * module dependencies
  */
 
-var app = module.exports = require('carry')();
+var app = module.exports = require('artery')();
 
 //middleware
 
