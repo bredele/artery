@@ -18,13 +18,14 @@ His motive was to avoid end up doing the same stuff all over again. He wanted an
 
 ### Structure
 
-Artery reduces the complexity of your webapp by splitting it into small modules (or apps). Each piece live by its own and is totally independant from an other and communicate with it through event messages. **Removing a piece doesn't break the others.**
+Artery reduces the complexity of your webapp by splitting it into small modules (or apps). Each piece live by its own, is totally independant from an other and communicate with it through event messages. **Removing a piece doesn't break the others.**
+
+Artery behaves as a valve, it's just the entry point of your modules and doesn't force you to write 
 
 ### Maintainability
 
 Artery isn't tight coupled to libraries. You can decide to switch from using jQuery to Zepto, Backbone to Angular or something entirely different. Artery's flexibility will save you some precious time.
 
-Artery acts as a valve, it's just the entry point of your modules and doesn't force you to write 
 
 
 ### Reusability
