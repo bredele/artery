@@ -12,7 +12,7 @@ Artery works on top of your favorite framework and has first-class support for [
 
 You've probably met that guy at work who was always getting on your nerves (to be polite) and constantly told you to not repeat yourself, avoid tight coupling or think reusable and maintainable as much as possible. This guy (may be you) is a pain but you've also spend a lot of time refactoring your application and you start thinking he is right.
 
-  > This guy's name is Addy Osmani or Nicholas Zakas and wrote interesting articles such as [scalable javascript architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture-2012) or [large scale javascript](http://addyosmani.com/largescalejavascript/).
+  > This guy's name is Addy Osmani or Nicholas Zakas and he wrote interesting articles such as [scalable javascript architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture-2012) or [large scale javascript](http://addyosmani.com/largescalejavascript/).
 
 His motive was to avoid end up doing the same stuff all over again. He wanted an application that **keeps working and doesn't break** no matter what. That's what Artery is about.
 
@@ -20,13 +20,13 @@ His motive was to avoid end up doing the same stuff all over again. He wanted an
 
 Artery reduces the complexity of your webapp by splitting it into small modules (or apps). Each piece live by its own, is totally independant from an other and communicate with it through event messages. **Removing a piece doesn't break the others.**
 
-Artery behaves as a valve, it's just the entry point of your modules and doesn't force you to write 
+Artery behaves as a valve, it's just the entry point of your modules and doesn't imply  
 
 ### Maintainability
 
 Artery isn't tight coupled to libraries. You can decide to switch from using jQuery to Zepto, Backbone to Angular or something entirely different. Artery's flexibility will save you some precious time.
 
-
+  - [ ] la
 
 ### Reusability
 
