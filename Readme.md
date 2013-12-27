@@ -26,7 +26,7 @@ Artery behaves as a valve, it's just the entry point of your modules and doesn't
 
 Artery isn't tight coupled to libraries. You can decide to switch from using jQuery to Zepto, Backbone to Angular or something entirely different. Artery's flexibility will save you some precious time.
 
-  - [ ] la
+  - [] la
 
 ### Reusability
 
