@@ -15,9 +15,9 @@ You've probably met that guy at work who was always getting on your nerves (to b
   > This guy's name is Addy Osmani or Nicholas Zakas and he wrote interesting articles such as [scalable javascript architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture-2012) or [large scale javascript](http://addyosmani.com/largescalejavascript/).
 
 His motive was to avoid end up doing the same stuff all over again. He wanted an application that **keeps working and doesn't break** no matter what. That's what Artery is about.
-
+<!---
   > **Don't be a fool!** There is great tools out there such as Backbone, Angular or Ember, but none of them give a structure to your web application. Because doing a scalable application is way more complicated than doing a todo list, you should have a framerwork that helps to architecture your app.
-
+-->
 ### Structure
 
 Artery reduces the complexity of your webapp by splitting it into small modules (or apps). Each piece live by its own, is totally independant from an other and communicate with it through an event hub. **Removing a piece doesn't break the others** (same for errors).
