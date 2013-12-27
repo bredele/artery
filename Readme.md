@@ -10,7 +10,9 @@ Artery is framework agnostic and has first-class support for [components](http:/
 
 ## Overview
 
-So what it Artery? 
+You've probably met this guy at work that got on your nerves (to stay polite) and constantly told you to not repeat yourself, test your code and think reusable and maintainable as much as possible. This guy is a pain but you've also spend a lot of time refactoring your application and you know he is right.
+
+
 
 
 ## Installation
