@@ -1,7 +1,7 @@
 var assert = require('assert'),
     artery = require('artery');
 
-describe("Hooks", function() {
+describe("hooks", function() {
 
 	var app = null,
 	    hub = null;
