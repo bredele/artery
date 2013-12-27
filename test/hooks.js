@@ -35,10 +35,11 @@ describe("hooks", function() {
 	});
 
 	describe("app stop", function() {
+		it("should emit a stop event");
 		
 	});
 
 	describe("destroy", function() {
-		
+	  it("should emit a destroy event");
 	});
 });
