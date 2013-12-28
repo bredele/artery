@@ -76,12 +76,55 @@ standalone:
  
 ### Create an `app`
 
-An app is the artery of your web application. 
+An app is the artery of your web application. It's the interface that will help you to divide everything up into smaller parts with lower complexity and responsability.
 
 ```js
 var app = module.exports = require('artery')();
 ```
+
   > In the example above, the app is exported (`module.exports`) and so, can be instantiated multiple times and reuse in an other project.
+
+It is through the `app` that you will emit and receive messages (the blood...berk!) and allow each part to communicate without creating dependencies between them.
+
+### Compose your web application
+
+With express, you can **use** other express apps and provide a clean and nice separation of concerns and functionnalities. Artery does the same:
+
+```js
+//mails behave as an event hub
+var mails = module.exports = require('artery')();
+
+//chat and messages are both artery apps
+mails.use('chat', require('chat'));
+mails.use('messages', require('messages'));
+```
+
+In the example above, `mails` initialize `chat` and `messages`. Both have a namespace and can now communicate each other (see below).
+
+  > It is a good pratice to instantiate an app into a new file to make things more maintainable and readable.
+
+
+### Make your app communicate
+
+chat.js:
+
+```js
+var chat = module.exports = require('artery')();
+
+chat.on('messages/new', function(msg) {
+	//print you got a new mail!
+});
+```
+
+messages.js:
+
+```js
+var messages = module.exports = require('artery')();
+
+messages.emit("new", "don't forget to do the dishes");
+
+```
+
 
 ## License
 
