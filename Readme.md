@@ -74,13 +74,14 @@ standalone:
 
     <script src="artery.js"></script>
  
-### Create an app
+### Create an `app`
 
-An app in Artery is the atomic component of 
+An app is the artery of your web application. 
 
 ```js
-  var app = module.exports = require('artery')();
+var app = module.exports = require('artery')();
 ```
+  > In the example above, the app is exported (`module.exports`) and so, can be instantiated multiple times and reuse in an other project.
 
 ## License
 
