@@ -105,7 +105,7 @@ In the example above, `mails` initialize `chat` and `messages`. Both have a name
   > It is a good pratice to instantiate an app into a new file to make things more maintainable and readable.
 
 
-### Make your app communicate
+### Make your `app` communicate
 
 An `app` can trigger (`emit`) and receive (`on`) messages through an event broadcasting mechanism.
 
@@ -156,7 +156,7 @@ This events are hooks and don't do anything. For example, you could use `destroy
 
  > In a next release, Artery will probably able to handle asynchronous applications through a `ready` event.
 
-### Configure your app
+### Configure your `app`
 
 We never talk about how important it is to configure your application. Especially when you want to reuse it somewhere. 
 
