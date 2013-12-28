@@ -107,6 +107,8 @@ In the example above, `mails` initialize `chat` and `messages`. Both have a name
 
 ### Make your app communicate
 
+An `app` can trigger (`emit`) and receive (`on`) messages through an event broadcasting mechanism.
+
 messages.js:
 
 ```js
