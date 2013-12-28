@@ -156,7 +156,7 @@ This events are hooks and don't do anything. For example, you could use `destroy
 
  > In a next release, Artery will probably able to handle asynchronous applications through a `ready` event.
 
-### Configure your `app`
+### Configure an `app`
 
 We never talk about how important it is to configure your application. Especially when you want to reuse it somewhere. 
 
