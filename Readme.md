@@ -129,6 +129,30 @@ chat.on('messages/new', function(msg) {
   //don't forget to do the dishes
 });
 ```
+Here's an [architectural example](https://github.com/bredele/artery/tree/master/examples/architecture) that woth a thousand words.
+
+
+### Lifecycle hooks
+
+We have seen that an `app` can communicate at an application-level but it support also module-level communication (sandboxed events).
+A sandboxed event will stay inside the `app`.
+
+```js
+var chat = module.exports = require('artery')();
+
+chat.sandbox.emit('ready');
+
+chat.sandbox.on('ready', function(){});
+
+```
+In this example, `messages` won't be able to catch the `ready` event trigerred by `chat`.
+
+Some sandboxed events are trigerred automatically:
+  - `init` (when an app is `used` by an other one)
+  - `stop` (froze a module)
+  - `destroy` (destroy a module)
+
+This events are hooks and don't do anything. For example, you could use `destroy` to destroy the views from your app.
 
 
 ## License
