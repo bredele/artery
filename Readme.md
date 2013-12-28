@@ -154,6 +154,36 @@ Some sandboxed events are trigerred automatically:
 
 This events are hooks and don't do anything. For example, you could use `destroy` to destroy the views from your app.
 
+ > In a next release, Artery will probably able to handle asynchronous applications through a `ready` event.
+
+### Configure your app
+
+We never talk about how important it is to configure your application. Especially when you want to reuse it somewhere. 
+
+
+```js
+var chat = module.exports = require('artery')();
+
+chat.config({
+	name: 'bredele',
+	group: 'github'
+});
+
+```
+
+Artery's configuration is dynamic and use the `app sandbox` to notify of a change in the config.
+
+```js
+chat.sandbox.on('change name', function(val){
+	console.log(val);
+	//olivier
+});
+
+chat.config('name', 'olivier');
+
+```
+
+### Extend your app
 
 ## License
 
