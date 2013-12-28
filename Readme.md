@@ -129,7 +129,7 @@ chat.on('messages/new', function(msg) {
   //don't forget to do the dishes
 });
 ```
-Here's an [architectural example](https://github.com/bredele/artery/tree/master/examples/architecture) that woth a thousand words.
+Here's an [architectural example](https://github.com/bredele/artery/tree/master/examples/architecture) that worth a thousand words.
 
 
 ### Lifecycle hooks
@@ -183,7 +183,7 @@ chat.config('name', 'olivier');
 
 ```
 
-### Extend your app
+### Extend an `app`
 
 ## License
 
