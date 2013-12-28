@@ -97,6 +97,7 @@ var mails = module.exports = require('artery')();
 //chat and messages are both artery apps
 mails.use('chat', require('chat'));
 mails.use('messages', require('messages'));
+
 ```
 
 In the example above, `mails` initialize `chat` and `messages`. Both have a namespace and can now communicate each other (see below).
@@ -106,16 +107,6 @@ In the example above, `mails` initialize `chat` and `messages`. Both have a name
 
 ### Make your app communicate
 
-chat.js:
-
-```js
-var chat = module.exports = require('artery')();
-
-chat.on('messages/new', function(msg) {
-	//print you got a new mail!
-});
-```
-
 messages.js:
 
 ```js
@@ -123,6 +114,18 @@ var messages = module.exports = require('artery')();
 
 messages.emit("new", "don't forget to do the dishes");
 
+```
+
+
+chat.js:
+
+```js
+var chat = module.exports = require('artery')();
+
+chat.on('messages/new', function(msg) {
+  console.log(mgg);
+  //don't forget to do the dishes
+});
 ```
 
 
