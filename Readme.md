@@ -74,9 +74,13 @@ standalone:
 
     <script src="artery.js"></script>
  
-### Create an Artery app
+### Create an app
 
+An app in Artery is the atomic component of 
 
+```js
+  var app = module.exports = require('artery')();
+```
 
 ## License
 
