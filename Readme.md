@@ -52,7 +52,7 @@ Artery makes easy to reuse small modules or apps like express do with middleware
  > Think of the chat module in Gmail. That's the same that you have in Google docs or Google+. Doing 3 times the same module would be a waste of time and money! Now, using Artery you would code the module once and use it in 3 differents apps (probably what's google is doing).
 
 #### Features:
-  - [Middleware engine]()
+  - [Middleware engine](https://github.com/bredele/artery/tree/master#compose-your-web-application)
   - Tools for scaffold and export your modules
   - Use Github as repository for your modules
 
@@ -104,6 +104,7 @@ In the example above, `mails` initialize `chat` and `messages`. Both have a name
 
   > It is a good pratice to instantiate an app into a new file to make things more maintainable and readable.
 
+`use` can also be used to [extend](https://github.com/bredele/artery/tree/master#extend-an-app) an `app`.
 
 ### Make your `app` communicate
 
