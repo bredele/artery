@@ -91,7 +91,7 @@ It is through the `app` that you will emit and receive messages (the blood...ber
 With express, you can **use** other express apps and provide a clean and nice separation of concerns and functionnalities. Artery does the same:
 
 ```js
-//mails behave as an event hub
+//mails behaves as an event hub
 var mails = module.exports = require('artery')();
 
 //chat and messages are both artery apps
@@ -184,6 +184,23 @@ chat.config('name', 'olivier');
 ```
 
 ### Extend an `app`
+
+An `app` can be extended through the middleware engine:
+
+```js
+chat.use(function(app) {
+  app.save = function() {
+     //do something
+  };
+});
+```
+You can also globally extend the api of `app` as following:
+
+```js
+var artery = require('artery');
+artery.merge(require('superagent'));
+```
+see [example](https://github.com/bredele/artery/tree/master/examples/merge).
 
 ## License
 
