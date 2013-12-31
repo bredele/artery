@@ -31,6 +31,26 @@ describe("hooks", function() {
 			hub.use('app', app);
 			assert.equal(called, true);
 		});
+
+		describe("init handler", function() {
+			it('should define init callback', function() {
+				var called = false;
+				app.init(function() {
+					called = true;
+				});
+				hub.use('app', app);
+				assert.equal(called, true);
+			});
+
+			it('should emit an init event', function() {
+				var called = false;
+				app.init(function() {
+					called = true;
+				});
+				app.init();
+				assert.equal(called, true);
+			});
+		});
 	
 	});
 
