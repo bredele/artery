@@ -1,6 +1,7 @@
 
 # Artery
 
+[![Build Status](https://travis-ci.org/bredele/artery.png?branch=master)](https://travis-ci.org/bredele/artery)  [![Selenium Test Status](https://saucelabs.com/buildstatus/bredele)](https://saucelabs.com/u/bredele)
   > the internal plumbing of your web application
 
 Artery aims to provide a clean and yet powerful event-driven architecture to create scalable and maintainable applications. Artery's API is greatly inspired by [express](http://github.com/visionmedia/express) and its secret goal is to get the same kind of code on both client and server side.
