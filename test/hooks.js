@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    artery = require('artery');
+    artery = require('..');
 
 describe("hooks", function() {
 

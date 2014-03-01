@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "make test"
+    "test": "zuul -- test/*.js",
+    "test-local": "zuul --local -- test/*.js"
   },
   "repository": {
     "type": "git",
@@ -31,10 +32,11 @@
     "url": "https://github.com/bredele/artery/issues"
   },
   "devDependencies": {
-    "mocha": "~1.16.1"
+    "mocha": "~1.17.1",
+    "zuul": "~1.5.4"
   },
-  "browser" : {
-    "emitter" : "component-emitter",
+  "browser": {
+    "emitter": "component-emitter",
     "store": "store-component"
   },
   "dependencies": {

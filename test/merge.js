@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    artery = require('artery').merge({
+    artery = require('..').merge({
 			path: function(){}
 		}, {
 			get: function(){}

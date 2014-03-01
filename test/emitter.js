@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    artery = require('artery');
+    artery = require('..');
 
 describe("communication bus", function() {
 	var app = null;
