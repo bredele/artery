@@ -1,6 +1,6 @@
 {
   "name": "artery",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Express-like API to create scalable and maintainable applications in your browser",
   "main": "index.js",
   "directories": {
@@ -32,5 +32,13 @@
   },
   "devDependencies": {
     "mocha": "~1.16.1"
+  },
+  "browser" : {
+    "emitter" : "component-emitter",
+    "store": "store-component"
+  },
+  "dependencies": {
+    "component-emitter": "~1.1.2",
+    "store-component": "~0.1.2"
   }
 }
