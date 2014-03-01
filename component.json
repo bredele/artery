@@ -5,8 +5,6 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "bredele/mixin" : "*",
-    "bredele/toarray" : "*",
     "bredele/store" : "*",
     "component/emitter" : "*"
   },
