@@ -2,10 +2,10 @@
   "name": "artery",
   "repo": "bredele/artery",
   "description": "Express like api to create scalable and maintainable application on your browser",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "keywords": [],
   "dependencies": {
-    "bredele/store" : "*",
+    "bredele/datastore" : "*",
     "component/emitter" : "*"
   },
   "development": {
